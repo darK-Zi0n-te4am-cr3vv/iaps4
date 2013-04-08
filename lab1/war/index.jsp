@@ -10,7 +10,7 @@
     <body>
         <div class="container">
             <div id="header">
-                Буйнов Кирилл, Раевский Сергей 4103 Вариант 302
+                Буйнов Кирилл, Раевский Сергей 4103 -- Вариант 302
             </div>
             <div id="postform">
             <form action="CheckingServlet" method="Post" onsubmit="return Validate();">
