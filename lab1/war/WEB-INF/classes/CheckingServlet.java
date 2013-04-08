@@ -1,8 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -10,10 +5,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- *
- * @author Властитель
- */
 public class CheckingServlet extends HttpServlet {
 
     /**
@@ -28,8 +19,6 @@ public class CheckingServlet extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
-       // PrintWriter out = response.getWriter();
         String points="";
         try{
             points=request.getParameter("xselect")+";"+request.getParameter("yselect")+";"+request.getParameter("rselect");
@@ -43,18 +32,11 @@ public class CheckingServlet extends HttpServlet {
             
             request.setAttribute("isHit",String.valueOf(Checking.LastState));
             request.setAttribute("Error",null);
-            
-            //out.append(String.valueOf(Checking.LastState));
         }
         catch(Exception ex)
         {
-            
             request.setAttribute("isHit",String.valueOf(false));
             request.setAttribute("Error",ex);
-        }
-        finally
-        {
-            //out.close();
         }
         
         getServletContext().getRequestDispatcher("/index.jsp").forward(request, response);
