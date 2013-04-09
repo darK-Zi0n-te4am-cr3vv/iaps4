@@ -16,16 +16,7 @@
             <form action="CheckingServlet" method="Post" onsubmit="return Validate();">
                 X: <input type="text" name="xselect"/><br/>
                 Y: 
-                <input type="button" value="-5" onclick="SetY(this);"/>
-                <input type="button" value="-4" onclick="SetY(this);"/>
-                <input type="button" value="-3" onclick="SetY(this);"/>
-                <input type="button" value="-2" onclick="SetY(this);"/>
-                <input type="button" value="-1" onclick="SetY(this);"/>
-                <input type="button" value="0" onclick="SetY(this);"/>
-                <input type="button" value="1" onclick="SetY(this);"/>
-                <input type="button" value="2" onclick="SetY(this);"/>
-                <input type="button" value="3" onclick="SetY(this);"/>
-                <input type="hidden" name="yselect" value="0"/><br/>
+                <input type="text" name="yselect"/><br/>
                 R: 
                 1<input type="checkbox" name="rselect" value="1" onchange="SetR(this);" checked="true"/>
                 2<input type="checkbox" name="rselect" value="2" onchange="SetR(this);"/>
