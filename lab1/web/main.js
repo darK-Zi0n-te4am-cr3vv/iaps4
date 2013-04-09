@@ -11,19 +11,3 @@ function Validate()
     textfields[0].style.borderColor="red";
     return false;    
 }
-
-function SetY(sender)
-{
-    yselect=document.getElementsByName("yselect")[0];
-    yselect.value=sender.value;
-}
-
-function SetR(sender)
-{
-    checkboxes=document.getElementsByName("rselect");
-    for(itm in checkboxes)
-    {
-        checkboxes[itm].checked=false;
-    }
-    sender.checked=true;
-}
