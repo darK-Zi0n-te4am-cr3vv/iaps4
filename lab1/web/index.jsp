@@ -10,7 +10,7 @@
     <body>
         <div class="container">
             <div id="header">
-                Бевза Роман 4103 <span title="Мне так Жмылев сказал">Вариант 310</span>
+                Буйнов Кирилл, Раевский Сергей 4103 -- Вариант 302
             </div>
             <div id="postform">
             <form action="CheckingServlet" method="Post" onsubmit="return Validate();">
