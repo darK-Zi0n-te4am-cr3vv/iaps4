@@ -14,7 +14,15 @@
             </div>
             <div id="postform">
             <form action="CheckingServlet" method="Post" onsubmit="return Validate();">
-                X: <input type="text" name="xselect"/><br/>
+                X: <input type="radio" name="xselect" value="-4">-4
+                <input type="radio" name="xselect" value="-3">-3
+                <input type="radio" name="xselect" value="-2">-2
+                <input type="radio" name="xselect" value="-1">-1
+                <input type="radio" name="xselect" value="0">0
+                <input type="radio" name="xselect" value="1">1
+                <input type="radio" name="xselect" value="2">2
+                <input type="radio" name="xselect" value="3">3
+                <input type="radio" name="xselect" value="4">4 <br>
                 Y: 
                 <input type="text" name="yselect"/><br/>
                 R: 
