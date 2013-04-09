@@ -1,6 +1,6 @@
 function Validate()
 {
-    textfields=document.getElementsByName("xselect");
+    textfields=document.getElementsByName("yselect");
     value=textfields[0].value;    
     var valid = (value.match(/^-?\d+(\.\d+)?$/));
     if( valid)
