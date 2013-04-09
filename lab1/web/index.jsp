@@ -25,13 +25,11 @@
                 <input type="radio" name="xselect" value="4">4 <br>
                 Y: 
                 <input type="text" name="yselect"/><br/>
-                R: 
-                1<input type="checkbox" name="rselect" value="1" onchange="SetR(this);" checked="true"/>
-                2<input type="checkbox" name="rselect" value="2" onchange="SetR(this);"/>
-                3<input type="checkbox" name="rselect" value="3" onchange="SetR(this);"/>
-                4<input type="checkbox" name="rselect" value="4" onchange="SetR(this);"/>
-                5<input type="checkbox" name="rselect" value="5" onchange="SetR(this);"/><br/>
-                <br/>
+                R: <input type="radio" name="rselect" value="1" checked>1
+                <input type="radio" name="rselect" value="2">2
+                <input type="radio" name="rselect" value="3">3
+                <input type="radio" name="rselect" value="4">4
+                <input type="radio" name="rselect" value="5">5<br>
                 <input type="submit" value="Отправить" />
             </form>
             </div>
