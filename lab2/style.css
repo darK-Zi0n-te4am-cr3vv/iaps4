@@ -1,0 +1,36 @@
+.container
+{
+    position: absolute;
+    
+    border: black solid 1px;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) 10px 10px;
+}
+
+#header
+{
+    position: relative;
+    height: 50px;
+    background: green;
+    color: white;
+    font: bold normal 15pt serif;
+    padding: 10px 10px 10px 10px;
+}
+#postform
+{
+    padding: 10px 10px 10px 10px;
+    border-bottom: black solid 1px;
+}
+
+#resultform
+{
+    padding: 10px 10px 10px 10px;
+    color: green;
+    font-weight: bold;
+}
+
+#resultform span
+{
+    color:black;
+    font-weight: normal;
+}
