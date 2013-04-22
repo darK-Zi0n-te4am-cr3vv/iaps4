@@ -38,15 +38,15 @@
                 <table>
                     <tr>
                         <td>
-                        X:  -2<input type="radio" name="x" value="-2"/>
-                            -1.5<input type="radio" name="x" value="-1.5"/>
+                        X:  -3<input type="radio" name="x" value="-3"/>
+                            -2<input type="radio" name="x" value="-2"/>
                             -1<input type="radio" name="x" value="-1"/>
-                            -0.5<input type="radio" name="x" value="-0.5"/>
-                            0<input type="radio" name="x" value="0" checked="true"/>
-                            0.5<input type="radio" name="x" value="0.5"/>
-                            1<input type="radio" name="x" value="1" />
-                            1.5<input type="radio" name="x" value="1.5"/>
-                            2<input type="radio" name="x" value="2" />
+                            0<input type="radio" name="x" value="0"/>
+                            1<input type="radio" name="x" value="1" checked="true"/>
+                            2<input type="radio" name="x" value="2"/>
+                            3<input type="radio" name="x" value="3" />
+                            4<input type="radio" name="x" value="4"/>
+                            5<input type="radio" name="x" value="5" />
                            <br/><br/>
                            <input type="hidden" name="xselect" value="0">
                         Y: 
