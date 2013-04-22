@@ -29,10 +29,10 @@ public class Checking
     
     private static Figure[] InitFigures()
     {
-        MySektor = new Sektor(new Point(0,0),rad*0.5,Math.PI,Math.PI*1.5);
+        MySektor = new Sektor(new Point(0,0),rad*0.5,0,Math.PI*0.5);
         MyQuadrangle = new Quadrangle(new Point(0,0),new Point(0,rad),
-                new Point(rad,rad),new Point(rad,0));
-        MyTriangle = new Triangle(new Point(0,0),new Point(rad,0),new Point(0,-rad));
+                new Point(-rad/2,rad),new Point(-rad/2,0));
+        MyTriangle = new Triangle(new Point(0,0),new Point(-rad/2,0),new Point(0,-rad/2));
         Figure[] MyFigure = {MySektor,MyQuadrangle,MyTriangle};
         return MyFigure;
     }
