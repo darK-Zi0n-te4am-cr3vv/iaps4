@@ -27,7 +27,7 @@
         <script type="text/javascript" src="main.js" ></script>
          <LINK href="style.css" rel="stylesheet" type="text/css">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Lab 1</title>
+        <title>Lab 2</title>
     </head>
     <body>
         <div class="container">
