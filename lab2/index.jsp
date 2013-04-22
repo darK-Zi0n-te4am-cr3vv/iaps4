@@ -31,7 +31,7 @@
     <body>
         <div class="container">
             <div id="header">
-                Бевза Роман 4103 Вариант 313
+                Буйнов Кирилл, Раевский Сергей 4103 Вариант 323
             </div>
             <div id="postform">
                 <form name="subForm" method="Post" onsubmit="return Validate();">
