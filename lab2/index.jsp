@@ -63,7 +63,7 @@
                         <br/>
                         </td>
                         <td>
-                            <img id="img1" src="areas.png" onclick="CheckPoint(event)">
+                            <img id="img1" src="areas.png">
                         </td>
                     </tr></table>
                 <input type="submit" value="Отправить" />
