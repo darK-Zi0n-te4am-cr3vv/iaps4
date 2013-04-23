@@ -17,7 +17,7 @@ var lab2 = (function () {
 			
 			$('input[name="xselect"]').val(x);
 			$('input[name="yselect"]').val(y);
-			$('input[name="zselect"]').val(z);
+			$('input[name="rselect"]').val(r);
 			
 			return true;
 		}
