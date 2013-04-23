@@ -35,7 +35,7 @@
                 Буйнов Кирилл, Раевский Сергей 4103 Вариант 323
             </div>
             <div id="postform">
-                <form name="subForm" method="Post" onsubmit="return Validate();">
+                <form name="subForm" method="Post" onsubmit="return lab2.preSendForm()">
                 <table>
                     <tr>
                         <td>
@@ -54,11 +54,12 @@
                         <input type="text" name="y"/><br/><br/>
                         <input type="hidden" name="yselect" value="0">
                         R: 
-                        1<input type="radio" name="rselect" value="1" onchange="SetR(this);" checked="true"/>
-                        2<input type="radio" name="rselect" value="2" onchange="SetR(this);"/>
-                        3<input type="radio" name="rselect" value="3" onchange="SetR(this);"/>
-                        4<input type="radio" name="rselect" value="4" onchange="SetR(this);"/>
-                        5<input type="radio" name="rselect" value="5" onchange="SetR(this);"/><br/>
+                        1<input type="radio" name="r" value="1" onchange="SetR(this);" checked="true"/>
+                        2<input type="radio" name="r" value="2" onchange="SetR(this);"/>
+                        3<input type="radio" name="r" value="3" onchange="SetR(this);"/>
+                        4<input type="radio" name="r" value="4" onchange="SetR(this);"/>
+                        5<input type="radio" name="r" value="5" onchange="SetR(this);"/><br/>
+						<input type="hidden" name="rselect" value="0">
                         <br/>
                         </td>
                         <td>
