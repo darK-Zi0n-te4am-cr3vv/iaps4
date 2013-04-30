@@ -39,6 +39,12 @@ var lab2 = (function () {
 				return false;
 			}
 			
+			y = parseFloat(y);
+			if (isNaN(y) || y < -5 || y > 3) {
+				$('input[name="y"]').css("border-color", "red");
+				return false;
+			}
+			
 			$('input[name="xselect"]').val(x);
 			$('input[name="yselect"]').val(y);
 			$('input[name="rselect"]').val(r);
