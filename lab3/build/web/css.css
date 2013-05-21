@@ -1,0 +1,18 @@
+/* 
+    Document   : css
+    Created on : Apr 29, 2013, 11:46:37 AM
+    Author     : root
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+#image {
+    bottom: auto;
+    left: auto;
+    width: 420px;
+    height: 320px;
+}
+
