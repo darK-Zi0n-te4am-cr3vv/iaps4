@@ -151,12 +151,12 @@ public class BeanArea implements Serializable {
        
         g2.setColor(Color.BLUE);
         //rd
-        g2.fillRect(bi.getHeight() / 2, bi.getHeight() / 2, (int) ((int) bi.getHeight() * 0.2), (int) ((int) bi.getHeight() * 0.4));
-        //ru  
-        g2.fillOval(bi.getHeight() / 2 - (int) ((int) bi.getHeight() * 0.2),
-                bi.getHeight() / 2 - (int) ((int) bi.getHeight() * 0.2),
-                (int) ((int) bi.getHeight() * 0.4),
-                (int) ((int) bi.getHeight() * 0.4));
+        g2.fillRect(bi.getHeight() / 2, bi.getHeight() / 2, (int) ((int) bi.getHeight() * 0.4), (int) ((int) bi.getHeight() * 0.4));
+        //ru
+        g2.fillOval(bi.getHeight() / 2 - (int) ((int) bi.getHeight() * 0.4),
+                bi.getHeight() / 2 - (int) ((int) bi.getHeight() * 0.4),
+                (int) ((int) bi.getHeight() * 0.8),
+                (int) ((int) bi.getHeight() * 0.8));
 
 
         //lu
