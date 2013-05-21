@@ -168,15 +168,16 @@ public class BeanArea implements Serializable {
 
         //ld
         g2.setColor(Color.BLUE);
-        g2.fillPolygon(
-                new int[]{(int) ((int) bi.getHeight() * 0.3), //x
-            (int) ((int) bi.getHeight() / 2),
-            (int) ((int) bi.getHeight() / 2)},
-                new int[]{(int) ((int) bi.getHeight() / 2), //y
-            (int) ((int) bi.getHeight() / 2),
-            (int) ((int) bi.getHeight() / 1.5)},
-                3);
 
+        int[] polyX = new int[]{(int) ((int) bi.getHeight() * 0.1), //x
+                                (int) ((int) bi.getHeight() / 2),
+                                (int) ((int) bi.getHeight() / 2)};
+
+        int[] polyY = new int[]{(int) ((int) bi.getHeight() / 2), //y
+                               (int) ((int) bi.getHeight() / 2),
+                               (int) ((int) bi.getHeight() * 0.1)};
+
+        g2.fillPolygon(polyX, polyY, 3);
 
         //LINES
         g2.setColor(Color.red);
