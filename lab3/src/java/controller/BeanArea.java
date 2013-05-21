@@ -161,10 +161,11 @@ public class BeanArea implements Serializable {
 
         //lu
         g2.setColor(Color.BLACK);
-        g2.fillRect(bi.getHeight() / 2 - (int) ((int) bi.getHeight() * 0.2),
-                bi.getHeight() / 2 - (int) ((int) bi.getHeight() * 0.2),
-                (int) ((int) bi.getHeight() * 0.2),
-                (int) ((int) bi.getHeight() * 0.4));
+        g2.fillRect(bi.getHeight() / 2 - (int) ((int) bi.getHeight() * 0.4),
+                bi.getHeight() / 2 - (int) ((int) bi.getHeight() * 0.4),
+                (int) ((int) bi.getHeight() * 0.4),
+                (int) ((int) bi.getHeight() * 0.8));
+
         //ld
         g2.setColor(Color.BLUE);
         g2.fillPolygon(
